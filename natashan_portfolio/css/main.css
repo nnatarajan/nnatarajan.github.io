@@ -1,0 +1,59 @@
+
+/* Whole Document */
+html, body {
+    color: auto;
+    font-family: 'Ubuntu', cursive;
+    font-weight: 400;
+    background-repeat:no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+h1{
+    font-size: 4em; 
+
+}
+/* Main sections     color: #000000;
+    background-color: #87cefa;*/
+
+#top{
+    color: #ffffff;
+
+
+}
+
+#projects { 
+    font-size: 30em;
+    color: #000000;
+    background-color: #87cefa;
+  
+}
+
+#contact {
+    font-size: 30em;
+    color: #000000;
+    background-color: #ffffff;
+
+}
+
+/* Subsections */
+
+#logo {
+    
+}
+
+#navigation {
+
+}
+
+#intro {
+
+text-align: center;
+padding-top: 20%;
+padding-bottom: 40%;
+
+}
