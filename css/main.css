@@ -2,7 +2,7 @@
 /* Whole Document */
 html, body {
     color: auto;
-    font-family: 'Ubuntu', cursive;
+    font-family: 'Lato', sans-serif;
     font-weight: 400;
     background-repeat:no-repeat;
     -webkit-background-size:cover;
@@ -11,26 +11,38 @@ html, body {
     background-size:cover;
     background-position: center;
     background-attachment: fixed;
+    margin: auto;
+}
+
+hr {
+  height: 1px;
+  width:100%;
+  display:block; /* for use on default inline elements like span */
+  margin: 9px 0;
+  overflow: hidden;
+  background-color: #e5e5e5;
+}
+
+#header {
 }
 
 h1{
-    font-size: 4em; 
 
+}
+
+#header_right{
+  margin-top: 10px;
+  font-weight: 100;
 }
 /* Main sections     color: #000000;
-    background-color: #87cefa;*/
-
-#top{
-    color: #ffffff;
+    background-color: #87cefa;
 
 
-}
-
-#projects { 
+#projects {
     font-size: 30em;
     color: #000000;
     background-color: #87cefa;
-  
+
 }
 
 #contact {
@@ -39,17 +51,18 @@ h1{
     background-color: #ffffff;
 
 }
+*/
 
 /* Subsections */
 
 #logo {
-    
+
 }
 
 #navigation {
 
 }
-
+/*
 #intro {
 
 text-align: center;
@@ -57,3 +70,4 @@ padding-top: 20%;
 padding-bottom: 40%;
 
 }
+ */
