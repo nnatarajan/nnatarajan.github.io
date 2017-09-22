@@ -2,7 +2,7 @@
 /* Whole Document */
 html, body {
     color: auto;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Merriweather', serif;
     font-weight: 400;
     background-repeat:no-repeat;
     -webkit-background-size:cover;
@@ -26,13 +26,14 @@ hr {
 #header {
 }
 
-h1{
-
+#title {
+  font-weight: 900i;
+  color: white;
 }
 
-#header_right{
+#icon{
   margin-top: 10px;
-  font-weight: 100;
+  font-weight: 900;
 }
 /* Main sections     color: #000000;
     background-color: #87cefa;
