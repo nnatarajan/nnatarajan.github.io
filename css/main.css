@@ -1,7 +1,7 @@
 
 /* Whole Document */
 html, body {
-    color: auto;
+    color: white;
     font-family: 'Merriweather', serif;
     font-weight: 400;
     background-repeat:no-repeat;
@@ -14,16 +14,8 @@ html, body {
     margin: auto;
 }
 
-hr {
-  height: 1px;
-  width:100%;
-  display:block; /* for use on default inline elements like span */
-  margin: 9px 0;
-  overflow: hidden;
-  background-color: #e5e5e5;
-}
-
-#header {
+.footer {
+  margin: auto;
 }
 
 #title {
