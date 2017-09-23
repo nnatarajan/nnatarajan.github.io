@@ -12,15 +12,32 @@ html, body {
     background-position: center;
     background-attachment: fixed;
     margin: auto;
+    max-width: 1152px;
 }
 
-.footer {
-  margin: auto;
+nav {
+  position: fixed;
+   top: 0;  <!-- as nav bar has height of 56px -->
+   left: 0;
+   bottom: 0;
+   right: 0;
+   background-color:black;
+   padding: 1em;
+}
+
+.page-footer {
+  color: white;
+  position: fixed;
+   left: 0;
+   bottom: 0;
+   background-color:black;
+   padding: 1em;
 }
 
 #title {
   font-weight: 900i;
   color: white;
+  background-color: black;
 }
 
 #icon{
