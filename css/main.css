@@ -1,9 +1,9 @@
 
 /* Whole Document */
 html, body {
-    color: white;
-    font-family: 'Merriweather', serif;
-    font-weight: 400;
+    color: #f3e5f5;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
     background-repeat:no-repeat;
     -webkit-background-size:cover;
     -moz-background-size:cover;
@@ -12,11 +12,12 @@ html, body {
     background-position: center;
     background-attachment: fixed;
     margin: auto;
-    max-width: 1152px;
+    min-width: 100vw;
+    min-height: 100vh;
 }
 
 nav {
-  position: fixed;
+   position: fixed;
    top: 0;  <!-- as nav bar has height of 56px -->
    left: 0;
    bottom: 0;
@@ -25,63 +26,19 @@ nav {
    padding: 1em;
 }
 
-.page-footer {
-  color: white;
-  position: fixed;
-   left: 0;
-   bottom: 0;
-   background-color:black;
-   padding: 1em;
-}
-
-#title {
-  font-weight: 900i;
-  color: white;
-  background-color: black;
-}
-
-#icon{
-  margin-top: 10px;
-  font-weight: 900;
-}
-/* Main sections     color: #000000;
-    background-color: #87cefa;
-
-
-#projects {
-    font-size: 30em;
-    color: #000000;
-    background-color: #87cefa;
-
-}
-
-#contact {
-    font-size: 30em;
-    color: #000000;
-    background-color: #ffffff;
-
-}
-*/
-
-/* Subsections */
-
-#logo {
-
-}
-
-#navigation {
-
-}
-/*
 #intro {
 
-text-align: center;
-padding-top: 20%;
-padding-bottom: 40%;
-
+  font-weight: 700
+  text-align: left;
+  padding-top: 5%;
 }
-*/
 
+#name {
+}
+
+#skills {
+  padding-top: 8%;
+}
  .shadow {
-text-shadow: 1px 1px 2px black;
+text-shadow: 5px 5px 10px black;
  }
