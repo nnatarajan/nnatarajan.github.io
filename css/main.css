@@ -4,6 +4,7 @@ html, body {
     color: #f3e5f5;
     font-family: 'Lato', sans-serif;
     font-weight: 900;
+    font-size: 100%;
     background-repeat:no-repeat;
     -webkit-background-size:cover;
     -moz-background-size:cover;
@@ -44,11 +45,25 @@ text-shadow: 5px 5px 10px black;
    color: black;
  }
 
- /* Large screens -----------   html, body {
-    font-size: 60em;
+ /* Media Queries */
 
-*/
-@media only screen and (min-width : 1824px) {
+ @media only screen and (max-width : 599px) {
+
+   html {
+     font-size: 75%;
+   }
+
+   #intro {
+     padding-top: 45%;
+   }
+
+}
+
+@media only screen and (min-width : 1800px) {
+
+  html {
+    font-size: 200%;
+  }
 
   .container{
     width: 1170px;
@@ -56,14 +71,6 @@ text-shadow: 5px 5px 10px black;
 
   #intro {
     padding-top: 20%;
-  }
-
-}
-
-@media only screen and (max-width : 723px) {
-
-  #intro {
-    padding-top: 45%;
   }
 
 }
