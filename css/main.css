@@ -28,7 +28,7 @@ nav {
 
 #intro {
   text-align: center;
-  padding-top: 2em;
+  padding-top: 20%;
   margin: auto;
 }
 
@@ -54,16 +54,5 @@ text-shadow: 5px 5px 10px black;
     width: 750px;
   }
 
-  .name {
-    font-size: 80px;
-  }
-
-  .title, .skills {
-    font-size: 40px;
-  }
-
-  #intro {
-    padding-top: 8em;
-  }
 
 }
