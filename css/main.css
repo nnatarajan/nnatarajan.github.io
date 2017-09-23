@@ -54,9 +54,12 @@ text-shadow: 5px 5px 10px black;
     width: 750px;
   }
 
-  #intro {
-    padding-top: 30%;
+}
 
+@media only screen and (min-width : 1824px) {
+
+  #intro {
+    padding-top: 25%;
   }
 
 }
