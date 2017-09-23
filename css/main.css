@@ -50,10 +50,6 @@ text-shadow: 5px 5px 10px black;
 */
 @media only screen and (min-width : 1824px) {
 
-  body {
-
-  }
-
   .container{
     width: 1170px;
   }
