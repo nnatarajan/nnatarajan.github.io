@@ -60,11 +60,10 @@ text-shadow: 5px 5px 10px black;
 
 }
 
-
 @media only screen and (max-width : 723px) {
 
   #intro {
-    padding-top: 25%;
+    padding-top: 30%;
   }
 
 }
