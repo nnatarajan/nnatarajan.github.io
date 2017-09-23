@@ -52,12 +52,12 @@ text-shadow: 5px 5px 10px black;
 
   body {
     background: none;
+    background-color: black;
   }
 
   .container{
-    width: 1000px;
-
-    background:"images/salt_lake.jpg"
+    width: 900px;
+    background-image:"images/salt_lake.jpg"
   }
 
 }
