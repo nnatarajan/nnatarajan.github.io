@@ -44,19 +44,26 @@ text-shadow: 5px 5px 10px black;
    color: black;
  }
 
- /* Large screens ----------- */
+ /* Large screens -----------   html, body {
+    font-size: 60em;
+   }*/
 @media only screen  and (min-width : 1824px) {
-
-  html, body {
-   font-size: 60em;
-  }
 
   .container{
     width: 750px;
   }
 
   #intro {
-    padding-top: 5em;
+    padding-top: 8em;
+  }
+
+  .name {
+    font-size: 80px;
+  }
+
+  .title, .skills {
+    font-size: 40px;
+
   }
 
 }
