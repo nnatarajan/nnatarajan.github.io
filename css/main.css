@@ -28,7 +28,7 @@ nav {
 
 #intro {
   text-align: center;
-  padding-top: 20%;
+  padding-top: 15%;
   margin: auto;
 }
 
@@ -52,6 +52,10 @@ text-shadow: 5px 5px 10px black;
 
   .container{
     width: 1170px;
+  }
+
+  #intro {
+    padding-top: 20%;
   }
 
 }
