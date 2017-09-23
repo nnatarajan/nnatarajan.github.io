@@ -3,7 +3,7 @@
 html, body {
     color: #f3e5f5;
     font-family: 'Lato', sans-serif;
-    font-weight: 700;
+    font-weight: 900;
     background-repeat:no-repeat;
     -webkit-background-size:cover;
     -moz-background-size:cover;
@@ -27,18 +27,19 @@ nav {
 }
 
 #intro {
-
-  font-weight: 700
-  text-align: left;
-  padding-top: 5%;
+  text-align: center;
+  padding-top: 2em;
+  margin: auto;
 }
 
-#name {
-}
-
-#skills {
-  padding-top: 8%;
-}
  .shadow {
 text-shadow: 5px 5px 10px black;
+ }
+
+.heart {
+  color: red;
+}
+
+ .camera {
+   color: black;
  }
