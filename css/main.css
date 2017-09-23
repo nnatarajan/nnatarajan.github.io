@@ -53,10 +53,6 @@ text-shadow: 5px 5px 10px black;
      font-size: 75%;
    }
 
-   #intro {
-     padding-top: 45%;
-   }
-
 }
 
 @media only screen and (min-width : 1800px) {
@@ -69,8 +65,5 @@ text-shadow: 5px 5px 10px black;
     width: 1170px;
   }
 
-  #intro {
-    padding-top: 20%;
-  }
 
 }
