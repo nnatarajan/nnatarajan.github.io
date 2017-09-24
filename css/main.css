@@ -2,8 +2,8 @@
 /* Whole Document */
 html, body {
     color: white;
-    font-family: 'Lato', sans-serif;
-    font-weight: 900;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
     font-size: 100%;
     background-repeat:no-repeat;
     -webkit-background-size:cover;
@@ -47,7 +47,7 @@ footer {
 
 #skills {
   color: black;
-  font-weight: 900i;
+  font-weight: 800i;
   font-size: 120%;
 }
 
