@@ -15,6 +15,12 @@ html, body {
     margin: auto;
     min-width: 100vw;
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+  flex: 1 0 auto;
 }
 
 nav {
@@ -25,6 +31,13 @@ nav {
    right: 0;
    background-color:black;
    padding: 1em;
+}
+
+footer {
+  text-align: center;
+  padding-left: 1%;
+  padding-bottom: 5%;
+  padding-top: 40%
 }
 
 #intro {
@@ -45,6 +58,10 @@ text-shadow: 5px 5px 10px black;
    color: black;
  }
 
+  .credit {
+  color: inherit;
+}
+
  /* Media Queries */
 
  /* Mobile */
@@ -53,7 +70,6 @@ text-shadow: 5px 5px 10px black;
    html {
      font-size: 75%;
    }
-
 }
 
  /* Large Devices */
@@ -63,7 +79,7 @@ text-shadow: 5px 5px 10px black;
     font-size: 150%;
   }
 
-  .container{
+  .container {
     width: 1500px;
   }
 
@@ -71,5 +87,4 @@ text-shadow: 5px 5px 10px black;
     height: 95px;
     line-height: 95px;
   }
-
 }
