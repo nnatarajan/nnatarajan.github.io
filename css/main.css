@@ -45,20 +45,29 @@ footer {
   margin: auto;
 }
 
- .shadow {
-text-shadow: 5px 5px 10px black;
- }
+#skills {
+  color: black;
+  font-weight: 900i;
+  font-size: 120%;
+}
 
 .heart {
   color: red;
 }
 
- .camera {
-   color: black;
- }
+.camera {
+ color: black;
+}
 
-  .credit {
+.shadow {
+text-shadow: 5px 5px 10px black;
+}
 
+.opacity {
+   position:relative;
+   background-color:white;
+   z-index:0;
+   opacity:0.5;
 }
 
  /* Media Queries */
