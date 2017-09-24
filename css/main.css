@@ -1,7 +1,7 @@
 
 /* Whole Document */
 html, body {
-    color: #f3e5f5;
+    color: white;
     font-family: 'Lato', sans-serif;
     font-weight: 900;
     font-size: 100%;
@@ -34,10 +34,9 @@ nav {
 }
 
 footer {
+  color: white;
   text-align: center;
-  padding-left: 1%;
-  padding-bottom: 5%;
-  padding-top: 40%
+  padding-bottom: 2%;
 }
 
 #intro {
@@ -59,7 +58,7 @@ text-shadow: 5px 5px 10px black;
  }
 
   .credit {
-  color: inherit;
+
 }
 
  /* Media Queries */
