@@ -90,15 +90,24 @@ text-shadow: 5px 5px 10px black;
 
 }
 
+/* IPAD Pro */
+@media only screen and (min-width : 900px) {
+
+  #intro {
+    padding-top: 35%;
+  }
+
+}
+
 /* Desktop and Larger */
 @media only screen and (min-width : 1200px) {
 
   #intro {
-    padding-top: 10%;
+    padding-top: 15%;
   }
 
   #title {
-    padding-bottom: 15%;
+    padding-bottom: 8%;
   }
 }
 
@@ -112,7 +121,7 @@ text-shadow: 5px 5px 10px black;
   .container {
     width: 1500px;
   }
-  
+
   nav {
     height: 95px;
     line-height: 95px;
