@@ -81,13 +81,21 @@ text-shadow: 5px 5px 10px black;
    }
 }
 
-/* Medium Devices */
+/* IPAD */
 @media only screen and (min-width : 740px)and (max-width : 799px) {
 
   html {
     font-size: 80%;
   }
 
+}
+
+/* Desktop and Larger */
+@media only screen and (min-width : 1200px) {
+
+  #intro {
+    padding-top: 10%;
+  }
 }
 
  /* Large Devices */
