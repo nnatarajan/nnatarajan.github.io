@@ -50,6 +50,10 @@ footer {
   font-size: 120%;
 }
 
+.nav-wrapper {
+  color: #039be5;
+}
+
 .heart {
   color: red;
 }
@@ -115,14 +119,6 @@ text-shadow: 5px 5px 10px black;
   nav {
     height: 95px;
     line-height: 95px;
-  }
-
-  #intro {
-    padding-top: 5%;
-  }
-
-  #title {
-    padding-bottom: 15%;
   }
 
 }
