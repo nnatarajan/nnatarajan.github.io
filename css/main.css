@@ -31,6 +31,7 @@ nav {
    right: 0;
    background-color:black;
    padding: 1em;
+   font-family: 'Josefin Sans', sans-serif;
 }
 
 footer {
@@ -48,10 +49,6 @@ footer {
 #skills {
   color: black;
   font-size: 120%;
-}
-
-.nav-wrapper {
-  color: #039be5;
 }
 
 .heart {
