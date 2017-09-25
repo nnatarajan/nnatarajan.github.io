@@ -121,4 +121,12 @@ text-shadow: 5px 5px 10px black;
     line-height: 95px;
   }
 
+  #intro {
+    padding-top: 15%;
+  }
+
+  #title {
+    padding-bottom: 10%;
+  }
+
 }
