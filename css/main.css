@@ -48,7 +48,6 @@ footer {
 #skills {
   color: black;
   font-size: 120%;
-
 }
 
 .heart {
@@ -107,7 +106,7 @@ text-shadow: 5px 5px 10px black;
   }
 
   #title {
-    padding-bottom: 8%;
+    padding-bottom: 10%;
   }
 }
 
@@ -131,7 +130,9 @@ text-shadow: 5px 5px 10px black;
     padding-top: 20%;
   }
 
+
   #title {
     padding-bottom: 15%;
   }
+
 }
