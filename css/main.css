@@ -96,6 +96,10 @@ text-shadow: 5px 5px 10px black;
   #intro {
     padding-top: 10%;
   }
+
+  #title {
+    padding-bottom: 15%;
+  }
 }
 
  /* Large Devices */
@@ -108,10 +112,17 @@ text-shadow: 5px 5px 10px black;
   .container {
     width: 1500px;
   }
-
+  
   nav {
     height: 95px;
     line-height: 95px;
   }
 
+  #intro {
+    padding-top: 20%;
+  }
+
+  #title {
+    padding-bottom: 15%;
+  }
 }
