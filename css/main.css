@@ -17,6 +17,7 @@ html, body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+
 }
 
 .container {
@@ -32,12 +33,6 @@ nav {
    background-color:black;
    padding: 1em;
    font-family: 'Josefin Sans', sans-serif;
-}
-
-footer {
-  color: white;
-  text-align: center;
-  padding-bottom: 2%;
 }
 
 #intro {
@@ -56,10 +51,6 @@ footer {
 
 .camera {
  color: black;
-}
-
-.credit {
-  font-family: 'Josefin Sans', sans-serif;
 }
 
 .shadow {
