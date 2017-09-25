@@ -41,10 +41,9 @@ footer {
 
 #intro {
   text-align: center;
-  padding-top: 30%;
+  padding-top: 25%;
   margin: auto;
 }
-
 
 #skills {
   color: black;
@@ -81,6 +80,15 @@ text-shadow: 5px 5px 10px black;
    html {
      font-size: 75%;
    }
+}
+
+/* Medium Devices */
+@media only screen and (min-width : 740px)and (max-width : 799px) {
+
+  html {
+    font-size: 80%;
+  }
+
 }
 
  /* Large Devices */
