@@ -122,7 +122,6 @@ text-shadow: 5px 5px 10px black;
   }
 
   #title {
-    padding-bottom: 10%;
+    padding-bottom: 0;
   }
-
 }
