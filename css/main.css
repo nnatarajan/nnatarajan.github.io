@@ -97,7 +97,7 @@ text-shadow: 5px 5px 10px black;
   }
 
   #title {
-    padding-bottom: 10%;
+    padding-bottom: 5%;
   }
 }
 
@@ -115,6 +115,10 @@ text-shadow: 5px 5px 10px black;
   nav {
     height: 95px;
     line-height: 95px;
+  }
+
+  #title {
+    padding-bottom: 15%;
   }
 
 }
