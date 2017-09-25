@@ -47,7 +47,6 @@ footer {
 
 #skills {
   color: black;
-  font-weight: 800i;
   font-size: 120%;
 
 }
@@ -107,8 +106,4 @@ text-shadow: 5px 5px 10px black;
     line-height: 95px;
   }
 
-  .credit{
-    font-size: 75%;
-    color: black;
-  }
 }
