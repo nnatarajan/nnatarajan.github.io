@@ -4,26 +4,26 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+	  <title>Natasha Natarajan</title>
   <!-- Compiled and minified CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
-
 	<!-- Custom styles -->
   <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:700|Playfair+Display:700" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
   <link rel="stylesheet" href="https://opensource.keycdn.com/fontawesome/4.5.0/font-awesome.min.css">
-
-	<title>Natasha Natarajan</title>
 </head>
 
 <body background="images/salt_lake.jpg">
 	<div class="container">
-
     <div class="navbar-fixed">
       <nav>
-        <div class="nav-wrapper links">
-          <a href="https://nnatarajan.github.io/">Home</a>
-          <ul class="right">
+        <div class="nav-wrapper">
+          <a href="https://nnatarajan.github.io/" class="brand-logo hide-on-med-and-down" "href="">Home</a>
+          <a href="#" data-activates="mobile-demo" class="button-collapse">
+            <i class="fa fa-bars fa-3x" aria-hidden="true"></i>
+          </a>
+
+          <ul class="right hide-on-med-and-down">
             <li><a href="https://github.com/nnatarajan">GitHub</a></li>
             <li><a href="https://www.linkedin.com/in/natashanatarajan/">LinkedIn</a></li>
             <li><a href="mailto: natasha.natarajan@gmail.com">Contact</a></li>
@@ -31,6 +31,12 @@
         </div>
       </nav>
     </div>
+
+    <ul class="side-nav" id="mobile-demo">
+      <li><a href="https://github.com/nnatarajan">GitHub</a></li>
+      <li><a href="https://www.linkedin.com/in/natashanatarajan/">LinkedIn</a></li>
+      <li><a href="mailto: natasha.natarajan@gmail.com">Contact</a></li>
+    </ul>
 
     <section id="intro" class="flow-text">
       <div id="name" class="shadow">
@@ -58,6 +64,11 @@
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <!-- Compiled and minified JavaScript -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+  <script>
+  	  $(document).ready(function(){
+  	  	$(".button-collapse").sideNav();
+  	  });
+  </script>
 
 </body>
 </html>
