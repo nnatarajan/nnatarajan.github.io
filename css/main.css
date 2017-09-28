@@ -84,6 +84,11 @@ text-shadow: 5px 5px 10px black;
     height: 95px;
     line-height: 95px;
   }
+
+  footer {
+    height: 95px;
+    line-height: 95px;
+  }
 }
 
 /* IPAD */
