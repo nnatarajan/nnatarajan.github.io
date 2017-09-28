@@ -56,10 +56,6 @@ footer {
   color: red;
 }
 
-.camera {
- color: white;
-}
-
 .shadow {
 text-shadow: 5px 5px 10px black;
 }
@@ -77,16 +73,14 @@ text-shadow: 5px 5px 10px black;
  /* Mobile */
  @media only screen and (max-width : 599px) {
 
-   html {
-     font-size: 80%;
    }
 }
 
  /* Medium and Small Devices */
 @media only screen and (max-width : 799px) {
   nav {
-    height: 95px;
-    line-height: 95px;
+    height: 100x;
+    line-height: 100px;
   }
 }
 
