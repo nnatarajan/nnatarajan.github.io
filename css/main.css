@@ -31,8 +31,8 @@ nav {
    bottom: 0;
    right: 0;
    background-color:black;
-   font-family: 'Josefin Sans', sans-serif;
    padding: 1em;
+   font-family: 'Libre Baskerville', serif;
 }
 
 footer {
@@ -49,7 +49,8 @@ footer {
 
 #skills {
   color: black;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Libre Baskerville', serif;
+
 }
 
 .heart {
@@ -68,7 +69,7 @@ text-shadow: 5px 5px 10px black;
    padding: .01875px;
 }
 
- /* Media Queries */
+ /** Media Queries **/
 
  /* Mobile */
  @media only screen and (max-width : 599px) {
