@@ -31,13 +31,13 @@ nav {
    bottom: 0;
    right: 0;
    background-color:black;
-   padding: 1em;
    font-family: 'Libre Baskerville', serif;
+   padding: 1em
 }
 
 footer {
   background-color:black;
-  padding: 1em;
+  padding: 0.5em;
   text-align: center;
 }
 
