@@ -88,8 +88,8 @@ text-shadow: 5px 5px 10px black;
  /* Medium and Small Devices */
 @media only screen and (max-width : 799px) {
   nav {
-    height: 95px;
-    line-height: 95px;
+    height: 5em;
+    line-height: 5em;
   }
 }
 
