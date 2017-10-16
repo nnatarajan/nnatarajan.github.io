@@ -78,11 +78,6 @@ text-shadow: 5px 5px 10px black;
   html {
     font-size: 80%;
   }
-
-  footer {
-    height: 1em;
-    line-height: 1em;
-  }
 }
 
  /* Medium and Small Devices */
