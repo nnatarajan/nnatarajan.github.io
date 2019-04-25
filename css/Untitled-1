@@ -1,0 +1,7 @@
+remove footer text, change nav bar font & add shaddow, reminified
+
+git add .
+
+git commit -m "remove footer text, change nav bar font & add shaddow, reminified"
+
+git push
