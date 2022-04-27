@@ -25,32 +25,30 @@ nav {
     background-color: transparent;
     font-family: 'Roboto Mono', monospace;
     box-shadow: none;
-    padding: .75em
+    padding: .75em;
+    position: fixed;
 }
 
 nav {
-    position: fixed;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
-
 }
 
-#intro,
 footer {
     text-align: left;
-    font-size:10%;
+    font-size:75%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
 }
 
-footer {
-    padding: .5em
-}
-
-#intro {
+/* #intro {
     padding-top: 25%;
     margin: auto
-}
+} */
 
 .modal-content {
     color: #000
